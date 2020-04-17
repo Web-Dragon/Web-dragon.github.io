@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang=:"en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, Initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #C3A33F ;
+  font-family:verdana;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1300px;
+  background: #7A7976;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: courier;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1300px;
+  background-color: #3A3A38;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #C2A44B;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+a:link {
+color: white;
+}
+
+a:hover {
+color: #B9B9B9;
+}
+
+a:visited {
+color: yellow;
+}
+
+img {
+max-height: 100%
+max-width: 100%;
+}
+
+p {
+	color: #B9B9B9;
+}
+
+ol {
+	color: white;
+    text-align: left;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+<h2> Twenty One Pilots</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About the Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+      </ul>
+      <img src="https://lh3.googleusercontent.com/proxy/RtAchDsgaINX8_xaEs_TEKK7fsefH0iANyQCEtxhXPDBavKF7iJ5RP6Q2FSt2zaLE-45473Zq9teMUWIPK9FYrXuLduwSoura-v5J_01knN0monPhY3iL_JqKo8qh5B19Hxoqdiq83a6o821-MUJmPCNwtEYk-k--cLyJvhUcX-2vug5" height = 130 ">
+  </nav>
+    
+  <article>
+  <h1 style="font-size: 40px; color: yellow; border: 10px grey solid;">Tour</h1>
+  
+  
+<table align="center" style="color:white">
+
+<tr>
+<td>
+12/13 - Byline Bank Aragon Ballroom - Chicago IL
+</td>
+</tr>
+
+<tr>
+<td>
+6/5 - Yeatman's Cove - Cincinnati, OH
+</td>
+</tr>
+
+<tr>
+<td>
+6/19 - Megaland - Landgraaf, Netherlands
+</td>
+</tr>
+
+<tr>
+<td>
+6/26 - OpenAir St. Gallen AG - St. Gallen, Switzerland
+</td>
+</tr>
+
+<tr>
+<td>
+7/4 - Festival Park - Werchter, Belgium
+</td>
+</tr>
+
+<tr>
+<td>
+7/12 - Futbol'nyy Manezh Dinamo - Moscow, Russia
+</td>
+</tr>
+
+<tr>
+<td>
+7/15 - The lower Vítkovice Area - Ostrava, Czechia
+</td>
+</tr>
+
+<tr>
+<td>
+7/19 - Atlanta Symphony concert hall - Atlanta, Georgia
+</td>
+</tr>
+
+<tr>
+<td>
+7/24 - Wayne Densch Performing Arts Center - Sanford, Florida
+</td>
+</tr>
+
+<tr>
+<td>
+7/27 - Calvary Chapel Oceanside - Oceanside, California
+</td>
+</tr>
+
+<tr>
+<td>
+7/30 - Autodromo Hnos. Rodriguez - Mexico, Mexico
+</td>
+</tr>
+
+<tr>
+<td>
+8/04 - Athens Fairgrounds - Winterville, GA
+</td>
+</tr>
+
+</table>
+
+<h1 style="font-size: 40px; color: yellow; border: 10px grey solid;">Buy Tickets</h1>
+<iframe src="https://www.ticketmaster.com/" height=500 width=700></iframe>
+<h1>Buy Tickets!</h1>
+https://www.ticketmaster.com/
+  </article>
+  
+</section>
+
+<footer>
+<em>Copyright &copy; 2020 Mikayla Finley. All rights reserved.</em>
+</footer>
+
+</body>
+</html>
